@@ -1,10 +1,10 @@
 public class Circle{
 
+    public float radius;
+
     Circle(float radius){
         this.radius = radius;
     }
-
-    private float radius;
 
     public double area(float radius){
         return Math.PI * radius * radius;
