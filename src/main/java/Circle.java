@@ -6,11 +6,11 @@ public class Circle{
         this.radius = radius;
     }
 
-    public double area(float radius){
+    public double area(){
         return Math.PI * radius * radius;
     }
 
-    public double circumference(float radius){
+    public double circumference(){
         return 2 * Math.PI * radius;
     }
 
